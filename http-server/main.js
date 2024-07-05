@@ -17,7 +17,7 @@ app.get('/api/hello', async (req, res) => {
     const weatherResponse = await axios.get(`https://api.openweathermap.org/data/2.5/weather`, {
       params: {
         q: city,
-        appid: 'YOUR_OPENWEATHERMAP_API_KEY', // Replace with your OpenWeatherMap API key
+        appid: '49cc8c821cd2aff9af04c9f98c36eb74',
         units: 'metric'
       }
     });
